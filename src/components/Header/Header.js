@@ -9,7 +9,6 @@ const Header = () => {
     { name: "Skills", id: "skills" },
     { name: "Education", id: "education" },
     { name: "Work Experience", id: "workExperience" },
-    { name: "Contact", id: "contact" },
   ];
 
   return (

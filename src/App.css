@@ -5,7 +5,11 @@
   align-items: center;
   background: linear-gradient(135deg, #000000, #86b9c1);
 }
-
+.description p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+}
 .home-content {
   display: flex;
   align-items: center;

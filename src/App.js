@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import About from "./components/Sections/About/About";
 import Contact from "./components/Sections/Contact/Contact";
@@ -17,7 +18,7 @@ function App() {
       <Skills />
       <Education />
       <WorkExperience />
-      <Contact />
+      <Footer />
     </div>
   );
 }

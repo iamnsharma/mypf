@@ -1,0 +1,57 @@
+/* Education.css */
+.education-section {
+  padding: 40px 0;
+}
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.education-card {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  transition: width 0.3s ease-in-out;
+}
+
+.education-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.education-card p {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.education-card.hovered {
+  width: 100%;
+}
+
+.education-card.hovered p:not(:last-child) {
+  display: none;
+}
+
+.education-card.hovered p:last-child {
+  display: block;
+}
+
+.container {
+  margin-right: 5vh;
+  margin-left: 5vh;
+}
+/* Education.css */
+.even-card {
+  background: linear-gradient(135deg, #000000, #86b9c1);
+  color: #fff;
+}
