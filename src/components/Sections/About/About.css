@@ -1,0 +1,10 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.about-section .container h2 {
+  color: black;
+}

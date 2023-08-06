@@ -1,0 +1,81 @@
+.home-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #000000, #86b9c1);
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.animated-image {
+  width: 200px; /* Adjust the size of the image as needed */
+  height: 200px; /* Adjust the size of the image as needed */
+  transition: transform 0.3s ease-in-out; /* Add a transition for smooth animation */
+}
+
+.image-container:hover .animated-image {
+  transform: scale(1.2); /* Increase the scale on hover for the animation */
+}
+
+.image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #fff 0%, transparent 100%);
+  opacity: 0.5;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.description {
+  min-width: 80vh;
+  padding-left: 20px;
+  color: #fff; /* Change the text color as per your preference */
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff; /* Change the background color of the social icons */
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333; /* Change the color of the icons */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  background-color: #007bff; /* Change the background color on hover */
+  color: #fff; /* Change the color of the icons on hover */
+}
