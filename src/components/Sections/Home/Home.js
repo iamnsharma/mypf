@@ -42,11 +42,7 @@ const Home = () => {
         </div>
         <div className="description">
           <h1>Hi there, I am Aman Sharma</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget
-            turpis ligula. Integer facilisis consectetur felis, a feugiat ex
-            faucibus eu.
-          </p>
+          <p>"Your limitation—it's only your imagination."</p>
           <div className="social-icons">
             <a
               href="https://github.com/iamnsharma"
